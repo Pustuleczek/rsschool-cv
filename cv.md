@@ -33,3 +33,14 @@ function multiply(a, b){
 return  a * b;
 }
 ```
+# Education
+* Moscow City University
+    - Institute of Foreign Languages, Theory and Practice of Cross-cultural Communication (French and English)
+* Udemy
+    - SQL and PostgreSQL for beginners
+
+# Languages
+* Russian — native speaker
+* English — C1
+* French — B2
+* Serbian — A1
