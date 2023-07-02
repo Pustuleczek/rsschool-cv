@@ -14,3 +14,22 @@
 # About Me
 
 I am 29 years old, currently I live in Novi Sad, Serbia. I’ve always dreamed of knowing languages. After getting known with several foreign languages I decided it was time to move forward and study some tech languages. I am here to achieve big goals!
+* My strengths:
+    - Versatility
+    - Open-minded
+    - Results driven
+    - Punctuality
+
+# Skills
+* SQL
+* Linguistic Quality Assurance (LQA) 
+* Localization
+* Project management
+
+# Code Example
+
+```
+function multiply(a, b){
+return  a * b;
+}
+```
