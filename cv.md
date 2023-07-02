@@ -1,5 +1,3 @@
-## RS School CV
-
 ![CV profile picture](profile-picture.png)
 
 # Nikita Sokolov-Galkin
