@@ -8,21 +8,24 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    border: 1px solid red;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
     margin: 0; padding: 0;
+    color: rgb(31, 31, 31);
 }
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .header {
-background-color: #d19837;
+background-color:darkslategrey;
 }
 
 .nav-list {
@@ -46,7 +49,16 @@ background-color: #d19837;
 }
 
 .nav-link:hover {
-color: brown;
+    color: rgb(55, 150, 30);
+}
+
+.section-link {
+    text-decoration: none;
+    color: rgb(55, 150, 30);
+}
+
+.section-link:hover {
+    color: rgb(25, 75, 10);
 }
 
 .main-container {
@@ -56,26 +68,68 @@ color: brown;
 
 .section {
     width: 50%;
+    padding-left: 30px;
 }
 
 .section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 40px;
+    padding: 40px 30px;
+
+}
+
+.section-profile-picture {
+    width: 250px;
+    height: 250px;
 }
 
 .section-profile-title {
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 17.5%;
+}
+
+.section-title-line {
+    width: 50%;
+    background-color: darkslategray;
+    height: 3px;
+    border: none;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    color: darkslategray;
 }
 
 .main-title {
-    font-size: 30px;
-    font-style: italic;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 7.5px;
+    margin: 20px 0px;
+    line-height: normal;
+}
+
+.main-subtitle {
+
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 20px 0px 40px 0px;
+    line-height: normal;
+}
+
+.section-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .code {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .footer {
@@ -92,5 +146,10 @@ color: brown;
 @media (max-width: 768px) {
     .section {
     width: 100%;
+    }
+
+    .section-profile {
+    flex-direction: column;
+    align-items: center;
     }
 }
