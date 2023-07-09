@@ -2,11 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/ico/cv-icon.ico">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="section-profile-picture" src="./assets/img/profile-picture.png" alt="profile-picture">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Nikita Sokolov&#8209;Galkin</h1>
+                    <hr class="section-title-line">
+                    <h2 class="section-title main-subtitle">Future Front&#8209;end developer</h2>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contact info</h2>
+                <ul class="section-list">
+                    <li>Email: <a href="mailto:pustuleczek@outlook.com" class="section-link">pustuleczek@outlook.com</a></li>
+                    <li>GitHub: <a href="https://github.com/pustuleczek" class="section-link">pustuleczek</a></li>
+                    <li>Telegram: <a href="https://t.me/pustuleczek" class="section-link">pustuleczek</a></li>
+                    <li>Discord: <a href="https://discordapp.com/users/548652428585730066/" class="section-link">Nikita SG (@pustuleczek)</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="paragraph">I am 29 years old, currently I live in Novi Sad, Serbia.
+                    I’ve always dreamed of knowing languages.
+                    After getting known with several foreign languages I decided
+                    it was time to move forward and study some tech languages.
+                    I am here to achieve big goals!</p>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p> As a project manager I have worked in the field of localization and
+                    linguistic quality assurance (LQA) of computer games,
+                    as well as in the control of localization of documentation
+                    of international oil and gas projects.
+                    I have also worked in one of the major banks as a SQL data analyst.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-item-list">
+                    <li>SQL</li>
+                    <li>Linguistic Quality Assurance (LQA)</li>
+                    <li>Localization</li>
+                    <li>Project management</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <code class="code">
+                    function multiply(a, b){
+                    <br>
+                    return  a * b;
+                    <br>
+                    }
+                </code>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a href="" class="section-link">CV for RS School</a>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li>Moscow City University
+                        <ul>
+                            <li>
+                                Institute of Foreign Languages, Theory
+                                and Practice of Cross-cultural
+                                Communication (French and English)
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Udemy
+                        <ul>
+                            <li>
+                                SQL and PostgreSQL for beginners
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li>Russian — native speaker</li>
+                    <li>English — C1</li>
+                    <li>French — B2</li>
+                    <li>Serbian — A1</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-date">2023</div>
+            <div class="footer-link">GitHub: <a href="https://github.com/pustuleczek" class="footer-item-link">Pustuleczek</a></div>
+            <div class="footer-logo"> <a href="https://rs.school/"><img src="./assets/svg/rs-school-logo-white.svg" alt="rs-school-logo"></a></div>
+        </div>
+    </footer>   
 </body>
 </html>
